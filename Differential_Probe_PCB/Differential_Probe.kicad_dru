@@ -1,0 +1,14 @@
+(version 1)
+(rule HV_Power_clearance
+	(constraint clearance(min 5mm))
+	(condition "A.hasNetclass('HV') && B.hasNetclass('Power') && B.NetName != 'GND'"))
+
+(rule HV_Analog_clearance_P
+	(constraint clearance(min 5mm))
+	(condition "A.hasNetclass('HV') && B.hasNetclass('Default') && B.NetName != 'Att_P'"))
+
+(rule HV_Analog_clearance_n
+	(constraint clearance(min 5mm))
+	(condition "A.hasNetclass('HV') && B.hasNetclass('Default') && B.NetName != '/Amplifier/Att_N'"))
+
+	
