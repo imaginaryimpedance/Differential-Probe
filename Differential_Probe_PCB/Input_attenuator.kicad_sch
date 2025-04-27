@@ -5,6 +5,113 @@
 	(uuid "2e9cc56d-845e-43da-b509-897f63796fb3")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
@@ -1782,6 +1889,46 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "2000pF common-mode capacitance\n1980-2020pF - range for input C tolerance"
+		(exclude_from_sim no)
+		(at 160.02 103.124 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a8c20db-7b8e-4b10-9a0c-2f3940820d3c")
+	)
+	(text "Max protection diodes C= 2*4pF\nMax error from tolerances = +/-19.4pF\nPossible range: 1920.6-1967.4pF\nRequired trim capacitance: 12.6-99.4pF\nChange C121/125 to 50pF if outside of range of trim\n\nNeeds to be improved in v1.1!!"
+		(exclude_from_sim no)
+		(at 148.59 165.862 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f42316b-9247-4589-9c9f-1cc74bac1d60")
+	)
+	(text "Max protection diodes C= 2*4pF\nMax error from tolerances = +/-1.85pF\nPossible range: 178.2-189.8pF\nRequired trim capacitance: 8.2-23.8pF\n"
+		(exclude_from_sim no)
+		(at 161.036 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6224f8d0-1efa-4a15-9151-22a05cb780b9")
+	)
+	(text "200pF common-mode capacitance\n198-202pF - range for input C tolerance\n\n"
+		(exclude_from_sim no)
+		(at 160.528 22.352 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8ca41678-930d-4bb5-b69a-72ea1d0d02f9")
+	)
 	(text "17V\n"
 		(exclude_from_sim no)
 		(at 78.486 53.848 0)
@@ -1815,6 +1962,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "128b2492-7a96-414f-848e-92c14ce61859")
+	)
+	(junction
+		(at 206.756 158.242)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "22be05f2-c468-4ef6-935f-9901a35e862a")
 	)
 	(junction
 		(at 120.904 108.458)
@@ -1875,6 +2028,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64e0a3d1-fb48-43b0-9517-0a54ea858f02")
+	)
+	(junction
+		(at 206.756 21.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "662c7d2f-5144-4a40-811f-4e425714c2e9")
 	)
 	(junction
 		(at 175.006 24.384)
@@ -2138,6 +2297,16 @@
 	)
 	(wire
 		(pts
+			(xy 206.756 21.59) (xy 206.756 84.074)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "213cde32-bc42-4386-b86c-4cb49ec8e151")
+	)
+	(wire
+		(pts
 			(xy 206.756 94.234) (xy 243.078 94.234)
 		)
 		(stroke
@@ -2258,6 +2427,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.852 21.59) (xy 206.756 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36606a06-494d-4337-b9f1-b3daee601a08")
+	)
+	(wire
+		(pts
 			(xy 55.118 104.14) (xy 57.658 104.14)
 		)
 		(stroke
@@ -2335,6 +2514,16 @@
 			(type default)
 		)
 		(uuid "3d326d08-1b4f-4599-9fc1-8e9a9ecfb8b0")
+	)
+	(wire
+		(pts
+			(xy 206.756 18.796) (xy 206.756 21.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ec0dd6a-3c3f-4e5c-a4af-083166891fa9")
 	)
 	(wire
 		(pts
@@ -3068,16 +3257,6 @@
 	)
 	(wire
 		(pts
-			(xy 206.756 18.796) (xy 206.756 84.074)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a277cd8f-15ab-4b40-b32d-7fabfab2e4b6")
-	)
-	(wire
-		(pts
 			(xy 62.738 104.14) (xy 67.31 104.14)
 		)
 		(stroke
@@ -3528,6 +3707,16 @@
 	)
 	(wire
 		(pts
+			(xy 212.09 158.242) (xy 206.756 158.242)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e55419af-0d2b-42dc-940e-cae5c071de19")
+	)
+	(wire
+		(pts
 			(xy 136.652 106.934) (xy 148.59 106.934)
 		)
 		(stroke
@@ -3875,7 +4064,7 @@
 			(fill
 				(type none)
 			)
-			(uuid d256643d-2d43-43b8-b84e-d629245429fc)
+			(uuid 594c9524-d7e7-4196-875b-6b70bec65291)
 		)
 	)
 	(rule_area
@@ -3890,7 +4079,7 @@
 			(fill
 				(type none)
 			)
-			(uuid d9aba5d9-983f-4901-8475-e77a252625c7)
+			(uuid 929816e9-10f3-433d-b162-c7e726e9a02b)
 		)
 	)
 	(netclass_flag ""
@@ -4034,15 +4223,15 @@
 		(fields_autoplaced yes)
 		(uuid "035a9ef2-a18e-42ef-b03a-0a990616456d")
 		(property "Reference" "C107"
-			(at 52.5843 37.846 90)
+			(at 52.5843 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 52.5843 40.386 90)
+		(property "Value" "10p"
+			(at 52.5843 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4102,7 +4291,7 @@
 		(fields_autoplaced yes)
 		(uuid "062d5664-fc24-4ebc-acda-300dc4e4f610")
 		(property "Reference" "C112"
-			(at 178.308 58.9342 0)
+			(at 177.8 58.9342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4110,8 +4299,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 178.308 61.4742 0)
+		(property "Value" "10p, 1%"
+			(at 177.8 61.4742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4180,7 +4369,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "50p, 1%"
 			(at 165.1 37.3442 0)
 			(effects
 				(font
@@ -4393,18 +4582,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "113af10f-8ccc-4da6-b8b2-8848605ac4b9")
 		(property "Reference" "C114"
-			(at 37.3316 109.982 90)
+			(at 37.3316 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 37.3316 112.522 90)
+		(property "Value" "10p"
+			(at 37.3316 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4620,7 +4808,7 @@
 		(fields_autoplaced yes)
 		(uuid "209d2326-d0c1-4646-a16d-6b314c0a00e3")
 		(property "Reference" "C104"
-			(at 190.754 34.6709 0)
+			(at 190.5 34.6709 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4628,8 +4816,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Trim_Small"
-			(at 190.754 37.2109 0)
+		(property "Value" "8-30p"
+			(at 190.5 37.2109 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4690,7 +4878,7 @@
 		(fields_autoplaced yes)
 		(uuid "2326d5b3-a6d6-4953-99ca-d3ca42c79b58")
 		(property "Reference" "C101"
-			(at 151.638 34.8042 0)
+			(at 151.13 34.8042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4698,8 +4886,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 151.638 37.3442 0)
+		(property "Value" "120p, 1%"
+			(at 151.13 37.3442 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4759,7 +4947,7 @@
 		(dnp no)
 		(uuid "26091041-154d-4148-b576-53ef017185ac")
 		(property "Reference" "R110"
-			(at 138.684 56.8959 0)
+			(at 137.922 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4767,8 +4955,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0R"
-			(at 138.684 59.4359 0)
+		(property "Value" "1.5k, 0.1%"
+			(at 137.922 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4958,10 +5146,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2b907046-6536-4487-b1c6-6a5a3ffc57df")
 		(property "Reference" "C124"
-			(at 165.354 141.4842 0)
+			(at 164.338 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,8 +5156,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 165.354 144.0242 0)
+		(property "Value" "420pF, 1%"
+			(at 164.338 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,10 +5284,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2f918a8f-348f-4cbe-909b-17bd2321755d")
 		(property "Reference" "C121"
-			(at 178.562 117.3542 0)
+			(at 179.07 120.904 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,8 +5294,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 178.562 119.8942 0)
+		(property "Value" "20pF, 1%/50pF 1%"
+			(at 181.864 129.032 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5599,7 +5785,7 @@
 		(fields_autoplaced yes)
 		(uuid "4deeb498-ce24-4fbc-96de-8254eb9aeef1")
 		(property "Reference" "R103"
-			(at 138.684 29.4639 0)
+			(at 138.43 29.4639 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,8 +5793,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "184k"
-			(at 138.684 32.0039 0)
+		(property "Value" "62k, 0.1%"
+			(at 138.43 32.0039 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,15 +5923,15 @@
 		(fields_autoplaced yes)
 		(uuid "5460acfb-e651-466f-93a4-79d97aa8ec8e")
 		(property "Reference" "C109"
-			(at 69.3483 37.846 90)
+			(at 69.3483 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 69.3483 40.386 90)
+		(property "Value" "10p"
+			(at 69.3483 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,15 +6582,15 @@
 		(fields_autoplaced yes)
 		(uuid "66feed99-22f0-493f-a1f1-1bb7c995dc8c")
 		(property "Reference" "C105"
-			(at 37.3316 37.846 90)
+			(at 37.3316 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 37.3316 40.386 90)
+		(property "Value" "10p"
+			(at 37.3316 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6532,7 +6718,7 @@
 		(fields_autoplaced yes)
 		(uuid "712de3ad-0fc1-4a41-9f3b-4437a272a359")
 		(property "Reference" "C119"
-			(at 151.892 117.3542 0)
+			(at 151.13 117.3542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6540,8 +6726,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 151.892 119.8942 0)
+		(property "Value" "1.5n, 1%"
+			(at 151.13 119.8942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6757,7 +6943,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b80aaa8-efb1-4f3e-83b3-8c44957ef707")
 		(property "Reference" "C123"
-			(at 151.892 141.4842 0)
+			(at 151.13 141.4842 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6765,8 +6951,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 151.892 144.0242 0)
+		(property "Value" "1.5n, 1%"
+			(at 151.13 144.0242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6827,7 +7013,7 @@
 		(fields_autoplaced yes)
 		(uuid "85973800-ade9-454b-b841-d4375a678b0f")
 		(property "Reference" "C122"
-			(at 191.008 117.2209 0)
+			(at 191.77 117.2209 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6835,8 +7021,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Trim_Small"
-			(at 191.008 119.7609 0)
+		(property "Value" "8-30p"
+			(at 191.77 119.7609 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6963,7 +7149,7 @@
 		(fields_autoplaced yes)
 		(uuid "8df51928-fbc7-4bbf-8027-f03fe1d9173e")
 		(property "Reference" "R111"
-			(at 138.684 65.0239 0)
+			(at 138.43 65.0239 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6971,8 +7157,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "184k"
-			(at 138.684 67.5639 0)
+		(property "Value" "62k, 0.1%"
+			(at 138.43 67.5639 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7033,7 +7219,7 @@
 		(fields_autoplaced yes)
 		(uuid "906414eb-32bb-4f01-87a5-b5bc42c2d797")
 		(property "Reference" "R126"
-			(at 138.684 148.0819 0)
+			(at 138.43 148.0819 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7041,8 +7227,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22k, 0.1%"
-			(at 138.684 150.6219 0)
+		(property "Value" "5.1k, 0.1%"
+			(at 138.43 150.6219 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +7289,7 @@
 		(fields_autoplaced yes)
 		(uuid "91658c0f-b0be-4a91-bfeb-e331de484f9e")
 		(property "Reference" "RV102"
-			(at 134.874 129.7939 0)
+			(at 134.62 129.7939 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,8 +7297,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "220R"
-			(at 134.874 132.3339 0)
+		(property "Value" "100R"
+			(at 134.62 132.3339 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7246,7 +7432,7 @@
 		(fields_autoplaced yes)
 		(uuid "948b4507-486c-43f5-be60-5ab5163655c5")
 		(property "Reference" "C113"
-			(at 190.754 58.8009 0)
+			(at 190.5 58.8009 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7254,8 +7440,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Trim_Small"
-			(at 190.754 61.3409 0)
+		(property "Value" "8-30p"
+			(at 190.5 61.3409 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7382,7 +7568,7 @@
 		(fields_autoplaced yes)
 		(uuid "a53bbf32-005c-4428-bf8f-c06171b82be0")
 		(property "Reference" "C110"
-			(at 151.638 58.9342 0)
+			(at 151.13 58.9342 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7390,8 +7576,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 151.638 61.4742 0)
+		(property "Value" "120p, 1%"
+			(at 151.13 61.4742 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7452,15 +7638,15 @@
 		(fields_autoplaced yes)
 		(uuid "a682047b-aa7f-46d9-b5aa-4e37f02bd12d")
 		(property "Reference" "C106"
-			(at 44.9643 37.846 90)
+			(at 44.9643 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 44.9643 40.386 90)
+		(property "Value" "10p"
+			(at 44.9643 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7528,7 +7714,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "50p, 1%"
 			(at 165.1 61.4742 0)
 			(effects
 				(font
@@ -7590,15 +7776,15 @@
 		(fields_autoplaced yes)
 		(uuid "acbb92f5-1a5f-4b97-a58b-c8ec46415809")
 		(property "Reference" "C116"
-			(at 52.5843 109.982 90)
+			(at 52.5843 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 52.5843 112.522 90)
+		(property "Value" "10p"
+			(at 52.5843 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7658,7 +7844,7 @@
 		(fields_autoplaced yes)
 		(uuid "b05caf1e-4e4d-4d2d-9f38-684cc7f82183")
 		(property "Reference" "R119"
-			(at 138.684 112.0139 0)
+			(at 138.43 112.0139 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7666,8 +7852,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "22k, 0.1%"
-			(at 138.684 114.5539 0)
+		(property "Value" "5.1k, 0.1%"
+			(at 138.43 114.5539 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7712,6 +7898,73 @@
 			(project "Differential_Probe"
 				(path "/6eba45ef-eefb-496c-8c70-f5f810b399c9/e3115df2-d7b4-4644-8613-9e6922b14583"
 					(reference "R119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 212.852 21.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b118da71-299f-42e0-a6df-0c0bdbcccfe4")
+		(property "Reference" "TP103"
+			(at 214.63 17.0179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 214.63 19.5579 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 217.932 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.932 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 212.852 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d7eb3135-6a2b-447d-accb-e07e5240fe25")
+		)
+		(instances
+			(project "Differential_Probe"
+				(path "/6eba45ef-eefb-496c-8c70-f5f810b399c9/e3115df2-d7b4-4644-8613-9e6922b14583"
+					(reference "TP103")
 					(unit 1)
 				)
 			)
@@ -7794,15 +8047,15 @@
 		(fields_autoplaced yes)
 		(uuid "be4bb9c2-b5f3-4354-af80-6d3552bf6298")
 		(property "Reference" "C117"
-			(at 60.2043 109.982 90)
+			(at 60.2043 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 60.2043 112.522 90)
+		(property "Value" "10p"
+			(at 60.2043 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7852,6 +8105,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 212.09 158.242 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0d8668f-65c8-4fe4-bad3-f4bef79cd53e")
+		(property "Reference" "TP104"
+			(at 213.868 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 213.868 156.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
+			(at 217.17 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 212.09 158.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0fa2744-c4a4-4302-ad35-e3712414bf4b")
+		)
+		(instances
+			(project "Differential_Probe"
+				(path "/6eba45ef-eefb-496c-8c70-f5f810b399c9/e3115df2-d7b4-4644-8613-9e6922b14583"
+					(reference "TP104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 136.398 38.1 180)
 		(unit 1)
@@ -7861,7 +8181,7 @@
 		(dnp no)
 		(uuid "ca8deeea-959a-4a07-9389-7f57341be690")
 		(property "Reference" "R104"
-			(at 138.684 36.8299 0)
+			(at 138.176 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7869,8 +8189,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0R"
-			(at 138.684 39.3699 0)
+		(property "Value" "1.5k, 0.1%"
+			(at 138.176 41.148 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7999,15 +8319,15 @@
 		(fields_autoplaced yes)
 		(uuid "d2fd5694-2c5c-4486-a056-50b618b46d3e")
 		(property "Reference" "C118"
-			(at 69.3483 109.982 90)
+			(at 69.3483 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 69.3483 112.522 90)
+		(property "Value" "10p"
+			(at 69.3483 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8064,10 +8384,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dc57b58f-afb8-400a-9ba0-ed50bbad57fb")
 		(property "Reference" "C120"
-			(at 165.354 117.3542 0)
+			(at 165.1 117.3542 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8075,8 +8394,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 165.354 119.8942 0)
+		(property "Value" "420pF, 1%"
+			(at 163.576 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8134,18 +8453,17 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1e80fd4-42f1-45ec-a035-09da8cee10fc")
 		(property "Reference" "C115"
-			(at 44.9643 109.982 90)
+			(at 44.9643 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 44.9643 112.522 90)
+		(property "Value" "10p"
+			(at 44.9643 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8205,7 +8523,7 @@
 		(fields_autoplaced yes)
 		(uuid "e261ef43-31ab-4cab-af32-8fdec31ee88f")
 		(property "Reference" "RV101"
-			(at 134.874 47.2439 0)
+			(at 134.62 47.2439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8213,8 +8531,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "500R"
-			(at 134.874 49.7839 0)
+		(property "Value" "1k"
+			(at 134.62 49.7839 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8346,15 +8664,15 @@
 		(fields_autoplaced yes)
 		(uuid "eab75927-a913-42b6-a5f0-4f1b4770f906")
 		(property "Reference" "C108"
-			(at 60.2043 37.846 90)
+			(at 60.2043 36.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 60.2043 40.386 90)
+		(property "Value" "10p"
+			(at 60.2043 39.37 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8411,10 +8729,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ed8cb79e-fab1-4e2d-842e-7410e0cca9d3")
 		(property "Reference" "C125"
-			(at 178.562 141.4842 0)
+			(at 178.816 145.034 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8422,8 +8739,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 178.562 144.0242 0)
+		(property "Value" "20pF, 1%/50pF 1%"
+			(at 181.864 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8484,7 +8801,7 @@
 		(fields_autoplaced yes)
 		(uuid "f02efcf8-b3a5-4bca-8996-bca75b8de001")
 		(property "Reference" "C126"
-			(at 191.008 141.3509 0)
+			(at 191.77 141.3509 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8492,8 +8809,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Trim_Small"
-			(at 191.008 143.8909 0)
+		(property "Value" "8-30p"
+			(at 191.77 143.8909 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8554,7 +8871,7 @@
 		(fields_autoplaced yes)
 		(uuid "f3463ecc-8e06-490d-9b53-071df3435e14")
 		(property "Reference" "C103"
-			(at 178.308 34.8042 0)
+			(at 177.8 34.8042 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8562,8 +8879,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C_Small"
-			(at 178.308 37.3442 0)
+		(property "Value" "10p, 1%"
+			(at 177.8 37.3442 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1,0 +1,27 @@
+Circuit: * C:\Users\mikol\Desktop\Projekty\Differential Probe\Simulations\AD8129 - Copy.asc
+
+WARNING: Less than two connections to node u2:_u113:nref_hi.  This node is used by e:u2:_u113:ref_hi.
+WARNING: Less than two connections to node u2:_u113:nref_low.  This node is used by e:u2:_u113:ref_low.
+WARNING: Less than two connections to node u2:_u113:npdz_hi.  This node is used by e:u2:_u113:pdz_hi.
+WARNING: Less than two connections to node u2:_u113:npdz_low.  This node is used by e:u2:_u113:pdz_low.
+u2:d_in_clmp: Emission coefficient, N=0.02, too small, limited to 0.1
+Direct Newton iteration for .op point succeeded.
+
+Date: Sat Apr 26 11:53:49 2025
+Total elapsed time: 0.208 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2401
+traniter = 2375
+tranpoints = 1158
+accept = 1132
+rejected = 26
+matrix size = 291
+fillins = 168
+solver = Normal
+Avg thread counts: 3.9/3.4/3.4/2.2
+Matrix Compiler1: 18.78 KB object code size  4.9/4.2/[0.9]
+Matrix Compiler2: 23.18 KB object code size  3.5/5.0/[1.7]
+
