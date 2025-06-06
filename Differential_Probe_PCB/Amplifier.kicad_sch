@@ -2403,6 +2403,17 @@
 		)
 		(uuid 58f42934-c93e-4324-afb9-0260e8853e33)
 	)
+	(text "R142 - 10k"
+		(exclude_from_sim no)
+		(at 146.304 101.346 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "1433bd1b-d9f7-41fa-89a8-58c8767e1abf")
+	)
 	(text "x2 gain\n"
 		(exclude_from_sim no)
 		(at 100.076 31.75 0)
@@ -2425,6 +2436,17 @@
 		)
 		(uuid "1efe9d9e-4ff1-47f1-8e87-05d834500b8a")
 	)
+	(text "R148 - 200R\n\n"
+		(exclude_from_sim no)
+		(at 60.96 147.828 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "2a92efc6-ad97-4712-bdf3-dc68e0464393")
+	)
 	(text "Bias current comp\n(optional)\n"
 		(exclude_from_sim no)
 		(at 58.928 47.752 0)
@@ -2437,6 +2459,17 @@
 		)
 		(uuid "40620e32-f6ce-40ea-8680-dd5daa2bbd11")
 	)
+	(text "R150 - 0R\n\n"
+		(exclude_from_sim no)
+		(at 60.198 178.308 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "5ed88c8a-15ac-43f3-832c-5499fe960678")
+	)
 	(text "Input offset correction"
 		(exclude_from_sim no)
 		(at 113.284 135.128 0)
@@ -2448,6 +2481,28 @@
 			)
 		)
 		(uuid "b3decc60-5e04-4d5d-a501-2daea30109af")
+	)
+	(text "Fucked up pinout"
+		(exclude_from_sim no)
+		(at 139.7 172.466 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "bd31bd6b-2d19-4432-b599-c75d037c6876")
+	)
+	(text "changed 6.8u to 10u\n"
+		(exclude_from_sim no)
+		(at 166.878 39.116 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "e12e91b5-331a-45a0-a633-5b5705f9ab08")
 	)
 	(text "x5 gain\n"
 		(exclude_from_sim no)
@@ -4748,7 +4803,7 @@
 				)
 			)
 		)
-		(property "Value" "LM321"
+		(property "Value" "OPA187I"
 			(at 132.334 161.8294 0)
 			(effects
 				(font

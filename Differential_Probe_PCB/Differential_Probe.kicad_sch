@@ -412,6 +412,17 @@
 		)
 		(uuid "7b380a1d-a11f-49fb-832c-07a8ac8f5f74")
 	)
+	(text "all 100n 0603 changed to 150n 0603\n"
+		(exclude_from_sim no)
+		(at 148.082 164.592 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "ca20509b-0beb-4ed0-9470-54318487ddc0")
+	)
 	(wire
 		(pts
 			(xy 70.104 111.76) (xy 128.27 111.76)

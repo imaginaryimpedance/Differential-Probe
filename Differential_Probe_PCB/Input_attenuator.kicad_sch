@@ -1889,6 +1889,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "C102 & C111- 20pF + 10pF"
+		(exclude_from_sim no)
+		(at 185.928 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "0117e2e1-6431-47cc-bf1a-485c9d8e046a")
+	)
 	(text "2000pF common-mode capacitance\n1980-2020pF - range for input C tolerance"
 		(exclude_from_sim no)
 		(at 160.02 103.124 0)
@@ -1928,6 +1939,17 @@
 			)
 		)
 		(uuid "8ca41678-930d-4bb5-b69a-72ea1d0d02f9")
+	)
+	(text "C120 & C124 - 300pF + 51pF"
+		(exclude_from_sim no)
+		(at 187.198 96.012 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "8d5a1214-5378-418b-9347-4b4f0c324600")
 	)
 	(text "17V\n"
 		(exclude_from_sim no)
@@ -4055,21 +4077,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 64.77 63.5) (xy 64.77 33.528) (xy 13.97 33.528) (xy 13.97 63.5)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 594c9524-d7e7-4196-875b-6b70bec65291)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 66.548 120.142) (xy 66.548 90.17) (xy 15.748 90.17) (xy 15.748 120.142)
 			)
 			(stroke
@@ -4079,7 +4086,22 @@
 			(fill
 				(type none)
 			)
-			(uuid 929816e9-10f3-433d-b162-c7e726e9a02b)
+			(uuid 4d5c97f1-7b02-4637-96e2-c286759638ec)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 64.77 63.5) (xy 64.77 33.528) (xy 13.97 33.528) (xy 13.97 63.5)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid e8fa4200-49ab-47d6-90cd-eeb90a3951cd)
 		)
 	)
 	(netclass_flag ""

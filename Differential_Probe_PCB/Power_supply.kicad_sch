@@ -3114,6 +3114,39 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "R130- 10k\nR129- 1k\nC133 DNP\n"
+		(exclude_from_sim no)
+		(at 208.534 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "0678bb5c-4048-4f95-897f-530f5757a01a")
+	)
+	(text "R134 -> 150R\n"
+		(exclude_from_sim no)
+		(at 164.592 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "70544e62-bcf7-4e0a-a0fa-75ef824fb333")
+	)
+	(text "FB103&FB104 - 0R"
+		(exclude_from_sim no)
+		(at 128.016 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "ff3aaac5-0d6b-475e-a036-9c9bfa8093ef")
+	)
 	(junction
 		(at 241.554 129.032)
 		(diameter 0)
@@ -5181,7 +5214,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 55457ee0-0213-4a60-8e3d-3eb580ae8e51)
+			(uuid 6141f75d-c71e-4d7b-8ecc-a5e7b4f21203)
 		)
 	)
 	(netclass_flag ""
@@ -6676,7 +6709,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "90.9k"
 			(at 212.09 53.8479 0)
 			(effects
 				(font

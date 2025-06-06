@@ -2289,6 +2289,60 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Fucked up pinout"
+		(exclude_from_sim no)
+		(at 65.532 76.962 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "640c9b7a-a4ed-4650-badd-baccea6a6277")
+	)
+	(text "Fucked up pinout"
+		(exclude_from_sim no)
+		(at 96.012 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "753943aa-d1f8-494f-97d0-5647de856a81")
+	)
+	(text "Q101 - reverse D with S...."
+		(exclude_from_sim no)
+		(at 117.602 119.634 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "84f41848-d11d-47c0-851f-8cece61027ef")
+	)
+	(text "1M\n"
+		(exclude_from_sim no)
+		(at 156.718 133.35 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ab374d77-9b48-4fce-8301-c4a8bb649d2b")
+	)
+	(text "R165 ->10k"
+		(exclude_from_sim no)
+		(at 160.02 168.402 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 255 0 0 1)
+			)
+		)
+		(uuid "b3c3d80a-3300-4624-a507-b9797e3d17f5")
+	)
 	(junction
 		(at 45.974 118.11)
 		(diameter 0)
