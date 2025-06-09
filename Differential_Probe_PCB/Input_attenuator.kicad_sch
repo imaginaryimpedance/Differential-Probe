@@ -1940,7 +1940,7 @@
 		)
 		(uuid "8ca41678-930d-4bb5-b69a-72ea1d0d02f9")
 	)
-	(text "C120 & C124 - 300pF + 51pF"
+	(text "C120 & C124 - 300pF + 51pF\n"
 		(exclude_from_sim no)
 		(at 187.198 96.012 0)
 		(effects
@@ -4086,7 +4086,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 4d5c97f1-7b02-4637-96e2-c286759638ec)
+			(uuid 67a10cbd-ca7d-4160-b2ae-3cf677d19d83)
 		)
 	)
 	(rule_area
@@ -4101,7 +4101,7 @@
 			(fill
 				(type none)
 			)
-			(uuid e8fa4200-49ab-47d6-90cd-eeb90a3951cd)
+			(uuid ac837c4d-b45f-4c52-801e-fdeabfe8d041)
 		)
 	)
 	(netclass_flag ""

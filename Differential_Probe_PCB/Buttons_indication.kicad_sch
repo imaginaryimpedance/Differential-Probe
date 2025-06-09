@@ -2324,7 +2324,7 @@
 	)
 	(text "1M\n"
 		(exclude_from_sim no)
-		(at 156.718 133.35 0)
+		(at 159.512 132.842 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2332,7 +2332,7 @@
 		)
 		(uuid "ab374d77-9b48-4fce-8301-c4a8bb649d2b")
 	)
-	(text "R165 ->10k"
+	(text "R165 ->10k\nR163 -> 1M\n"
 		(exclude_from_sim no)
 		(at 160.02 168.402 0)
 		(effects
