@@ -2289,7 +2289,67 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Fucked up pinout"
+	(rectangle
+		(start 20.574 13.208)
+		(end 139.446 88.646)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9f0e5176-be2c-436d-8708-1c84720540f9)
+	)
+	(rectangle
+		(start 85.09 116.078)
+		(end 174.752 188.976)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c99af6fd-9874-4954-bcd3-25870cfae664)
+	)
+	(rectangle
+		(start 14.224 100.838)
+		(end 84.836 189.23)
+		(stroke
+			(width 0.5)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid cf538922-a920-41da-a57f-e42d7f159d0f)
+	)
+	(text "Check if IC101 output indicates overvoltage"
+		(exclude_from_sim no)
+		(at 56.134 95.25 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "2fdc7087-2389-4f13-81eb-535e11da49fe")
+	)
+	(text "Attenuation and BW change buttons"
+		(exclude_from_sim no)
+		(at 177.8 20.066 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "3cb8f52d-a25b-4038-bbb1-f8507e3f8ccc")
+	)
+	(text "Wrong pinout"
 		(exclude_from_sim no)
 		(at 65.532 76.962 0)
 		(effects
@@ -2300,9 +2360,9 @@
 		)
 		(uuid "640c9b7a-a4ed-4650-badd-baccea6a6277")
 	)
-	(text "Fucked up pinout"
+	(text "Wrong pinout"
 		(exclude_from_sim no)
-		(at 96.012 72.39 0)
+		(at 113.792 72.136 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2313,7 +2373,7 @@
 	)
 	(text "Q101 - reverse D with S...."
 		(exclude_from_sim no)
-		(at 117.602 119.634 0)
+		(at 194.056 155.702 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2322,19 +2382,21 @@
 		)
 		(uuid "84f41848-d11d-47c0-851f-8cece61027ef")
 	)
-	(text "1M\n"
+	(text "1s delay on turn-off"
 		(exclude_from_sim no)
-		(at 159.512 132.842 0)
+		(at 130.302 111.76 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
 			)
 		)
-		(uuid "ab374d77-9b48-4fce-8301-c4a8bb649d2b")
+		(uuid "a91c0c9d-69ec-4685-87bf-2d87f3e92baf")
 	)
 	(text "R165 ->10k\nR163 -> 1M\n"
 		(exclude_from_sim no)
-		(at 160.02 168.402 0)
+		(at 186.944 159.512 0)
 		(effects
 			(font
 				(size 1.27 1.27)

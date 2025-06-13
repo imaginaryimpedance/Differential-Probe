@@ -1891,7 +1891,7 @@
 	)
 	(text "C102 & C111- 20pF + 10pF"
 		(exclude_from_sim no)
-		(at 185.928 92.71 0)
+		(at 140.462 175.768 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1910,7 +1910,7 @@
 		)
 		(uuid "1a8c20db-7b8e-4b10-9a0c-2f3940820d3c")
 	)
-	(text "Max protection diodes C= 2*4pF\nMax error from tolerances = +/-19.4pF\nPossible range: 1920.6-1967.4pF\nRequired trim capacitance: 12.6-99.4pF\nChange C121/125 to 50pF if outside of range of trim\n\nNeeds to be improved in v1.1!!"
+	(text "Max protection diodes C= 2*4pF\nMax error from tolerances = +/-19.4pF\nPossible range: 1920.6-1967.4pF\nRequired trim capacitance: 12.6-99.4pF\nChange C121/125 to 50pF if outside of range of trim\n\n"
 		(exclude_from_sim no)
 		(at 148.59 165.862 0)
 		(effects
@@ -1942,7 +1942,7 @@
 	)
 	(text "C120 & C124 - 300pF + 51pF\n"
 		(exclude_from_sim no)
-		(at 187.198 96.012 0)
+		(at 141.732 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1951,15 +1951,39 @@
 		)
 		(uuid "8d5a1214-5378-418b-9347-4b4f0c324600")
 	)
-	(text "17V\n"
+	(text "x100 attenuation"
 		(exclude_from_sim no)
-		(at 78.486 53.848 0)
+		(at 155.448 15.24 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "a8c7524f-2304-480e-a588-ed26faba4e99")
+	)
+	(text "R112 and R113 as protection of overvoltage\nduring attenuation switch during measurement"
+		(exclude_from_sim no)
+		(at 66.802 126.492 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "c368d9d3-4454-44fa-a8c9-437cdb006204")
+		(uuid "bc10cfa5-3d03-48f9-a841-90cdc61e2a8b")
+	)
+	(text "x1000 attenuation"
+		(exclude_from_sim no)
+		(at 160.782 97.028 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+				(thickness 0.5)
+				(bold yes)
+			)
+		)
+		(uuid "f6025aa4-2801-4461-bc5c-21dd4518d7ea")
 	)
 	(junction
 		(at 161.798 72.644)
@@ -4086,7 +4110,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 67a10cbd-ca7d-4160-b2ae-3cf677d19d83)
+			(uuid 3d42bbff-5da3-42b8-b1c3-a1a36e50b7dd)
 		)
 	)
 	(rule_area
@@ -4101,7 +4125,7 @@
 			(fill
 				(type none)
 			)
-			(uuid ac837c4d-b45f-4c52-801e-fdeabfe8d041)
+			(uuid 55a9f365-8a41-47f3-9a1a-55be362b896f)
 		)
 	)
 	(netclass_flag ""

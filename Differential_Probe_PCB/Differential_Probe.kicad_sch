@@ -414,7 +414,7 @@
 	)
 	(text "all 100n 0603 changed to 150n 0603\n"
 		(exclude_from_sim no)
-		(at 148.082 164.592 0)
+		(at 109.982 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)

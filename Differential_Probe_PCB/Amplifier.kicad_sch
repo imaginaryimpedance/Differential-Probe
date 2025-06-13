@@ -2470,6 +2470,16 @@
 		)
 		(uuid "5ed88c8a-15ac-43f3-832c-5499fe960678")
 	)
+	(text "~550mV"
+		(exclude_from_sim no)
+		(at 147.828 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "786df3c2-daf0-4549-ac78-2da43648db08")
+	)
 	(text "Input offset correction"
 		(exclude_from_sim no)
 		(at 113.284 135.128 0)
@@ -2482,9 +2492,9 @@
 		)
 		(uuid "b3decc60-5e04-4d5d-a501-2daea30109af")
 	)
-	(text "Fucked up pinout"
+	(text "Wrong pinout of U106"
 		(exclude_from_sim no)
-		(at 139.7 172.466 0)
+		(at 143.51 171.958 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2493,7 +2503,7 @@
 		)
 		(uuid "bd31bd6b-2d19-4432-b599-c75d037c6876")
 	)
-	(text "changed 6.8u to 10u\n"
+	(text "C150, C153 - 10u"
 		(exclude_from_sim no)
 		(at 166.878 39.116 0)
 		(effects
